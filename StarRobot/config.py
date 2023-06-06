@@ -17,18 +17,18 @@ class Config(object):
     API_ID = "" # integer value, dont use ""
     API_HASH = ""
     TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = "5463205082" # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "its_star_boi"
-    SUPPORT_CHAT = "Star_X_Support"  # Your own group for support, do not add the @
+    OWNER_ID = "5994155964" # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "ll_Shaurya_ll"
+    SUPPORT_CHAT = "girlfriend_4_you"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001621682412
+        -1001946195853
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001621682412
+        -1001946195853
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
     MONGO_DB_URI= "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://cmrwjple:HusQi3UV2UrfOe8j0VUFLZ3KssotfCZt@isilo.db.elephantsql.com/cmrwjpe"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
